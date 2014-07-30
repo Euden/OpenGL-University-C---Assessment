@@ -1,0 +1,37 @@
+﻿Build started 7/30/2014 11:43:48 PM.
+     1>Project "C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\BouncingShapes.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Ultilities\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\ /ZI /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp Pyramid.cpp main.cpp
+         main.cpp
+         Pyramid.cpp
+     1>c:\users\ben\downloads\c++assessment2\bouncingshapes - copy\projects\class2\source\pyramid.cpp(152): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         Cube.cpp
+     1>c:\users\ben\downloads\c++assessment2\bouncingshapes - copy\projects\class2\source\cube.cpp(381): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         e:\Ultilities\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\Debug\BouncingShapes.exe" /INCREMENTAL:NO /NOLOGO ..\..\..\GLFrame\Debug\GLFrame.lib ..\..\..\glfw\src\Debug\glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BouncingShapes.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\Debug\BouncingShapes.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\Debug\BouncingShapes.lib" /MACHINE:X86 Debug\ControlHandler.obj
+         Debug\Cube.obj
+         Debug\main.obj
+         Debug\Pyramid.obj
+     1>ControlHandler.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         project.vcxproj -> C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\Debug\BouncingShapes.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\Debug\BouncingShapes.exe;#1" /manifest Debug\BouncingShapes.exe.intermediate.manifest
+       PostBuildEvent:
+         copy "C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\\*.vert" "C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\Debug\"
+         copy "C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\\*.frag" "C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\Debug\"
+         :VCEnd
+         C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\\ExampleVertexShader.vert
+                 1 file(s) copied.
+         C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\\ExampleFragmentShader.frag
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\BouncingShapes.unsuccessfulbuild".
+         Touching "Debug\BouncingShapes.lastbuildstate".
+     1>Done Building Project "C:\Users\Ben\Downloads\C++Assessment2\BouncingShapes - Copy\projects\class2\source\project.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.18
